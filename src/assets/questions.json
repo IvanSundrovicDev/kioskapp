@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "id": 54,
+      "question": "Do you have a fever over 100.3?",
+      "required":  true,
+      "type":  "true/false",
+      "answers": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "id": 32,
+      "question": "Do you have any of the following signs or symptoms?",
+      "required": true,
+      "type": "checkbox",
+      "answers": {
+        "1": "New onset of cough",
+        "2": "Worsening chronic cough",
+        "3": "Sore throat",
+        "4": "Shortness of breath",
+        "5": "Difficulty breathing",
+        "6": "New loss or decrease in sense of taste or smell",
+        "7": "Runny nose",
+        "8": "Sneezing (not allergy related)",
+        "9": "Hoarse voice",
+        "10": "Nasal congestion",
+        "11": "Chills",
+        "12": "Headache",
+        "13": "Unexplained fatigue or malaise",
+        "14": "Difficulty swallowing",
+        "15": "Nausea/vomiting, diarrhea, abdominal pain"
+      }
+    },
+    {
+      "id": 87,
+      "question": "Have you travelled or have had close contact with anyone who has travelled in the past 14 days?",
+      "required": true,
+      "type": "true/false",
+      "answers": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "id": 6543,
+      "question": "Have you had close contact with anyone with respiratory illness or a confirmed or probable/suspected case of COVI19?",
+      "required": true,
+      "type": "true/false",
+      "answers": {
+        "1": "Yes (if yes, go to question 5)",
+        "2": "No (if no, screening is completed)"
+      }
+    },
+    {
+      "id": 3456,
+      "question": "Did you wear the required and/or recommended PPE according to the type of duties you were performing (e.g. goggles, gloves, mask and gown or N95 with aerosol generating medical procedures when you had close contact with a suspected or confirmed case of COVI19?",
+      "required": false,
+      "type": "true/false",
+      "answers": {
+        "1": "Yes",
+        "2": "No"
+      }
+    }
+  ]
+}
